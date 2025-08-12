@@ -8,9 +8,13 @@ TEAM_NAME = "Vitality"
 async def generate_calendar():
     async with CS2() as cs2:
         teams = await cs2.search_teams(TEAM_NAME)
+        print("DEBUG teams:", teams)  # Pour debug la structure
+        
         if not teams:
             raise ValueError(f"Équipe {TEAM_NAME} introuvable.")
-        team_id = teams[0]["id"]
+        
+        # Récupérer le premier ID dans le dictionnaire
+        team_id = list(teams.keys())[0]
         
         matches = await cs2.get_team_upcoming_matches(team_id)
         
@@ -27,7 +31,7 @@ async def generate_calendar():
         with open("vitality.ics", "w", encoding="utf-8") as f:
             f.writelines(cal)
         print("✅ Fichier vitality.ics généré")
-        
-        
+
+
 if __name__ == "__main__":
     asyncio.run(generate_calendar())
