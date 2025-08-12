@@ -3,11 +3,12 @@ name: Generate Vitality Calendar
 on:
   schedule:
     - cron: "0 5 * * *"  # Tous les jours à 5h UTC
-  workflow_dispatch:      # Permet un lancement manuel
+  workflow_dispatch:      # Lancement manuel possible
 
 jobs:
   build:
     runs-on: ubuntu-latest
+
     steps:
       - name: Checkout repository
         uses: actions/checkout@v3
@@ -21,12 +22,24 @@ jobs:
         run: pip install -r requirements.txt
 
       - name: Generate calendar
-        run: python generate_calendar.py
+        run: |
+          set -e
+          echo "🚀 Génération du calendrier..."
+          if python generate_calendar.py; then
+            echo "✅ Script exécuté avec succès."
+          else
+            echo "⚠ Erreur lors de la génération, le workflow continue."
+          fi
 
-      - name: Commit and push
+      - name: Commit and push changes if needed
         run: |
           git config --global user.name "GitHub Actions"
           git config --global user.email "actions@github.com"
           git add vitality.ics
-          git commit -m "Mise à jour du calendrier"
-          git push
+          if git diff --cached --quiet; then
+            echo "ℹ Aucun changement détecté dans vitality.ics."
+          else
+            git commit -m "Mise à jour du calendrier"
+            git push
+            echo "✅ Calendrier mis à jour et pushé."
+          fi
