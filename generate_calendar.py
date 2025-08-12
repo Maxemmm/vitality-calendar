@@ -1,10 +1,10 @@
-from cs2api import BO3API
+from cs2api import CS2
 from ics import Calendar, Event
 from datetime import datetime, timezone
 
 TEAM_NAME = "Vitality"  # Nom exact de l'équipe
 
-api = BO3API()
+api = CS2()
 
 # Recherche de l'ID de l'équipe
 teams = api.search_teams(TEAM_NAME)
