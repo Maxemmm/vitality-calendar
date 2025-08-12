@@ -1,0 +1,9 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:ics.py - http://git.io/lLljaA
+BEGIN:VEVENT
+DESCRIPTION:Tournoi : Esports World Cup 2025\nLien : 
+SUMMARY:Vitality vs Liquid
+UID:67a99b49-fb4a-419f-935c-fe07320ec747@67a9.org
+END:VEVENT
+END:VCALENDAR
