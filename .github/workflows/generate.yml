@@ -35,7 +35,16 @@ jobs:
         run: |
           git config --global user.name "GitHub Actions"
           git config --global user.email "actions@github.com"
-          git add vitality.ics
+
+          # Ajouter le fichier uniquement s'il existe
+          if [ -f vitality.ics ]; then
+            git add vitality.ics
+          else
+            echo "⚠ Fichier vitality.ics introuvable, rien à committer."
+            exit 0
+          fi
+
+          # Commit uniquement si le fichier a changé
           if git diff --cached --quiet; then
             echo "ℹ Aucun changement détecté dans vitality.ics."
           else
