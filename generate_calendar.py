@@ -34,7 +34,7 @@ async def generate_calendar():
             return
 
         cal = Calendar()
-        base_url = "https://bo3.gg/match/"
+        base_url = "https://bo3.gg/matches/"
 
         for match in matches['results']:
             event = Event()
