@@ -2,19 +2,19 @@ BEGIN:VCALENDAR
 VERSION:2.0
 PRODID:ics.py - http://git.io/lLljaA
 BEGIN:VEVENT
-DESCRIPTION:Tournoi : BLAST Bounty Fall 2025\nLien : https://bo3.gg/matches/vitality-vs-liquid-15-08-2025
-DURATION:PT1H
-DTSTART:20250815T140000Z
-SUMMARY:Vitality vs Liquid
-UID:e03a579e-1e47-4322-b234-3322c20bd347@e03a.org
-URL:https://bo3.gg/matches/vitality-vs-liquid-15-08-2025
-END:VEVENT
-BEGIN:VEVENT
 DESCRIPTION:Tournoi : Esports World Cup 2025\nLien : https://bo3.gg/matches/vitality-vs-liquid-20-08-2025
 DURATION:PT1H
 DTSTART:20250820T110000Z
 SUMMARY:Vitality vs Liquid
-UID:3a110055-2d98-4ff6-a7a0-fbb008bbb92f@3a11.org
+UID:ffb8f167-79ee-4f19-afa5-ca09f4309cf1@ffb8.org
 URL:https://bo3.gg/matches/vitality-vs-liquid-20-08-2025
+END:VEVENT
+BEGIN:VEVENT
+DESCRIPTION:Tournoi : BLAST Bounty Fall 2025\nLien : https://bo3.gg/matches/vitality-vs-liquid-15-08-2025
+DURATION:PT1H
+DTSTART:20250815T140000Z
+SUMMARY:Vitality vs Liquid
+UID:35d80217-f49f-4471-a633-34bd66596b9f@35d8.org
+URL:https://bo3.gg/matches/vitality-vs-liquid-15-08-2025
 END:VEVENT
 END:VCALENDAR
