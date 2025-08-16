@@ -6,15 +6,15 @@ DESCRIPTION:Tournoi : Esports World Cup 2025\nLien : https://bo3.gg/matches/vita
 DURATION:PT1H
 DTSTART:20250820T110000Z
 SUMMARY:Vitality vs Liquid
-UID:ffb8f167-79ee-4f19-afa5-ca09f4309cf1@ffb8.org
+UID:8f092a87-de79-4e58-9db1-948bfeacf825@8f09.org
 URL:https://bo3.gg/matches/vitality-vs-liquid-20-08-2025
 END:VEVENT
 BEGIN:VEVENT
-DESCRIPTION:Tournoi : BLAST Bounty Fall 2025\nLien : https://bo3.gg/matches/vitality-vs-liquid-15-08-2025
+DESCRIPTION:Tournoi : BLAST Bounty Fall 2025\nLien : https://bo3.gg/matches/vitality-vs-the-mongolz-16-08-2025
 DURATION:PT1H
-DTSTART:20250815T140000Z
-SUMMARY:Vitality vs Liquid
-UID:35d80217-f49f-4471-a633-34bd66596b9f@35d8.org
-URL:https://bo3.gg/matches/vitality-vs-liquid-15-08-2025
+DTSTART:20250816T170000Z
+SUMMARY:Vitality vs The MongolZ
+UID:a9651b6e-8f88-42d4-a39b-0376c6162b94@a965.org
+URL:https://bo3.gg/matches/vitality-vs-the-mongolz-16-08-2025
 END:VEVENT
 END:VCALENDAR
