@@ -4,9 +4,9 @@ PRODID:ics.py - http://git.io/lLljaA
 BEGIN:VEVENT
 DESCRIPTION:Tournoi : Esports World Cup 2025\nLien : https://bo3.gg/matches/vitality-vs-liquid-20-08-2025
 DURATION:PT1H
-DTSTART:20250820T110000Z
+DTSTART:20250820T141500Z
 SUMMARY:Vitality vs Liquid
-UID:64ab5652-4354-4f9a-a2f0-984cdefcf82a@64ab.org
+UID:48634010-02a1-40e1-8e3d-9d07a9cae128@4863.org
 URL:https://bo3.gg/matches/vitality-vs-liquid-20-08-2025
 END:VEVENT
 END:VCALENDAR
