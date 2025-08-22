@@ -2,11 +2,11 @@ BEGIN:VCALENDAR
 VERSION:2.0
 PRODID:ics.py - http://git.io/lLljaA
 BEGIN:VEVENT
-DESCRIPTION:Tournoi : Esports World Cup 2025\nLien : https://bo3.gg/matches/tyloo-cs-go-vs-vitality-21-08-2025
+DESCRIPTION:Tournoi : Esports World Cup 2025\nLien : https://bo3.gg/matches/the-mongolz-vs-vitality-23-08-2025
 DURATION:PT1H
-DTSTART:20250821T141500Z
-SUMMARY:Vitality vs TYLOO
-UID:b9bc4f38-9afc-4849-bcc7-361b2ea21909@b9bc.org
-URL:https://bo3.gg/matches/tyloo-cs-go-vs-vitality-21-08-2025
+DTSTART:20250823T143000Z
+SUMMARY:Vitality vs The MongolZ
+UID:64c52bf3-1951-4928-a289-d4469b510717@64c5.org
+URL:https://bo3.gg/matches/the-mongolz-vs-vitality-23-08-2025
 END:VEVENT
 END:VCALENDAR
