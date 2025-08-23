@@ -2,11 +2,19 @@ BEGIN:VCALENDAR
 VERSION:2.0
 PRODID:ics.py - http://git.io/lLljaA
 BEGIN:VEVENT
+DESCRIPTION:Tournoi : BLAST Open Fall 2025: Closed Qualifier\nLien : https://bo3.gg/matches/vitality-vs-m80-cs-go-27-08-2025
+DURATION:PT1H
+DTSTART:20250827T100000Z
+SUMMARY:Vitality vs M80
+UID:b8ac4e7e-34c1-4fee-adf0-16119a36f744@b8ac.org
+URL:https://bo3.gg/matches/vitality-vs-m80-cs-go-27-08-2025
+END:VEVENT
+BEGIN:VEVENT
 DESCRIPTION:Tournoi : Esports World Cup 2025\nLien : https://bo3.gg/matches/the-mongolz-vs-vitality-23-08-2025
 DURATION:PT1H
 DTSTART:20250823T143000Z
 SUMMARY:Vitality vs The MongolZ
-UID:64c52bf3-1951-4928-a289-d4469b510717@64c5.org
+UID:6c37cd7c-822f-40fc-8645-d9d1fab4bb14@6c37.org
 URL:https://bo3.gg/matches/the-mongolz-vs-vitality-23-08-2025
 END:VEVENT
 END:VCALENDAR
