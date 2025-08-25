@@ -2,19 +2,11 @@ BEGIN:VCALENDAR
 VERSION:2.0
 PRODID:ics.py - http://git.io/lLljaA
 BEGIN:VEVENT
-DESCRIPTION:Tournoi : Esports World Cup 2025\nLien : https://bo3.gg/matches/vitality-vs-falcons-esports-24-08-2025
-DURATION:PT1H
-DTSTART:20250824T070000Z
-SUMMARY:Vitality vs Falcons
-UID:088b710f-271c-42bb-8c23-f3302d4d91c9@088b.org
-URL:https://bo3.gg/matches/vitality-vs-falcons-esports-24-08-2025
-END:VEVENT
-BEGIN:VEVENT
 DESCRIPTION:Tournoi : BLAST Open Fall 2025: Closed Qualifier\nLien : https://bo3.gg/matches/vitality-vs-m80-cs-go-27-08-2025
 DURATION:PT1H
 DTSTART:20250827T100000Z
 SUMMARY:Vitality vs M80
-UID:927e05bb-ab68-4699-b0cd-74f11ff2518e@927e.org
+UID:4133a43f-5573-46f8-8f39-ee47b373bc34@4133.org
 URL:https://bo3.gg/matches/vitality-vs-m80-cs-go-27-08-2025
 END:VEVENT
 END:VCALENDAR
