@@ -2,11 +2,11 @@ BEGIN:VCALENDAR
 VERSION:2.0
 PRODID:ics.py - http://git.io/lLljaA
 BEGIN:VEVENT
-DESCRIPTION:Tournoi : BLAST Open Fall 2025: Closed Qualifier\nLien : https://bo3.gg/matches/vitality-vs-m80-cs-go-27-08-2025
+DESCRIPTION:Tournoi : BLAST Open Fall 2025: Closed Qualifier\nLien : https://bo3.gg/matches/vitality-vs-gamerlegion-29-08-2025
 DURATION:PT1H
-DTSTART:20250827T100000Z
-SUMMARY:Vitality vs M80
-UID:68f325a9-262c-4d7e-b97f-f78b1ac68443@68f3.org
-URL:https://bo3.gg/matches/vitality-vs-m80-cs-go-27-08-2025
+DTSTART:20250829T150000Z
+SUMMARY:Vitality vs GamerLegion
+UID:4174781d-80e6-4e9a-a9c9-005c58d85064@4174.org
+URL:https://bo3.gg/matches/vitality-vs-gamerlegion-29-08-2025
 END:VEVENT
 END:VCALENDAR
