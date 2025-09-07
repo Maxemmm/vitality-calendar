@@ -2,11 +2,11 @@ BEGIN:VCALENDAR
 VERSION:2.0
 PRODID:ics.py - http://git.io/lLljaA
 BEGIN:VEVENT
-DESCRIPTION:Tournoi : BLAST Open Fall 2025\nLien : https://bo3.gg/matches/vitality-vs-mousesports-06-09-2025
+DESCRIPTION:Tournoi : BLAST Open Fall 2025\nLien : https://bo3.gg/matches/vitality-vs-g2-07-09-2025
 DURATION:PT1H
-DTSTART:20250906T143000Z
-SUMMARY:Vitality vs MOUZ
-UID:67372a14-253e-41ee-b009-f689ebbb42c3@6737.org
-URL:https://bo3.gg/matches/vitality-vs-mousesports-06-09-2025
+DTSTART:20250907T143000Z
+SUMMARY:Vitality vs G2
+UID:2a878a05-d778-4823-aa98-d97215c5b569@2a87.org
+URL:https://bo3.gg/matches/vitality-vs-g2-07-09-2025
 END:VEVENT
 END:VCALENDAR
