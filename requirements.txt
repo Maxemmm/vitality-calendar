@@ -2,11 +2,11 @@
 # Versions figées pour garantir la stabilité
 
 # API pour Counter-Strike 2 et les données des équipes
-cs2api>=1.0.0
+cs2api>=0.1.3
 
 # Génération de fichiers calendrier iCalendar
-ics>=0.8.0
+ics>=0.7.2
 
 # Dépendances additionnelles pour la robustesse
-requests>=2.31.0
-python-dateutil>=2.8.0
+requests>=2.32.0
+python-dateutil>=2.9.0
