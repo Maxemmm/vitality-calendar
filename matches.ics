@@ -1,0 +1,12 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:ics.py - http://git.io/lLljaA
+BEGIN:VEVENT
+DESCRIPTION:Tournoi : CS Asia Championships 2025\nFormat : BO1\nDurée prévue : 1:30:00\nÉquipe suivie : 3DMAX\nLien : https://bo3.gg/matches/3dmax-vs-the-huns-esports-14-10-2025
+DURATION:PT1H30M
+DTSTART:20251014T030000Z
+SUMMARY:3DMAX vs The Huns
+UID:6fe46614-75f1-4285-8d37-cfb43f51a29d@6fe4.org
+URL:https://bo3.gg/matches/3dmax-vs-the-huns-esports-14-10-2025
+END:VEVENT
+END:VCALENDAR
