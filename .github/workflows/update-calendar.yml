@@ -1,50 +1,102 @@
-name: Update Calendar
+name: Update CS2 Teams Calendar
 
 on:
   schedule:
-    # Lance le workflow tous les jours à 12h UTC
-    - cron: '0 12 * * *'
+    # Mise à jour deux fois par jour à 00h et 12h UTC
+    - cron: '0 0 * * *'  # Minuit UTC (00h00)
+    - cron: '0 12 * * *' # Midi UTC (12h00)
   workflow_dispatch: # Permet de lancer manuellement
+  push:
+    branches: [ main ]
+  pull_request:
+    branches: [ main ]
 
 jobs:
   update-calendar:
     runs-on: ubuntu-latest
+    timeout-minutes: 10
     
     steps:
-    - name: Checkout repository
+    - name: 🚀 Checkout repository
       uses: actions/checkout@v4
+      with:
+        fetch-depth: 0  # Nécessaire pour git history
       
-    - name: Set up Python
+    - name: 🐍 Set up Python
       uses: actions/setup-python@v4
       with:
         python-version: '3.11'
+        cache: 'pip'
         
-    - name: Install dependencies
+    - name: 📦 Install dependencies
       run: |
+        python -m pip install --upgrade pip
         pip install -r requirements.txt
         
-    - name: Generate calendar
+    - name: 🔍 Validate configuration
       run: |
+        if [ ! -f "config.json" ]; then
+          echo "❌ Fichier config.json manquant !"
+          exit 1
+        fi
+        
+        python -c "
+        import json
+        try:
+          config = json.load(open('config.json'))
+          required_fields = ['teams', 'output_file']
+          for field in required_fields:
+            if field not in config:
+              print(f'❌ Champ requis {field} manquant dans config.json')
+              exit(1)
+          print('✅ Configuration valide')
+        except Exception as e:
+          print(f'❌ Erreur dans config.json: {e}')
+          exit(1)
+        "
+        
+    - name: 📅 Generate calendar
+      run: |
+        echo "🎮 Génération du calendrier CS2..."
         python generate_calendar.py
         
-    - name: Commit and push changes
+    - name: 📋 Check for changes
+      id: check_changes
       run: |
-        git config --local user.email "action@github.com"
-        git config --local user.name "GitHub Action"
-        
-        # Ajouter le fichier spécifié dans config.json
         CALENDAR_FILE=$(python -c "import json; config=json.load(open('config.json')); print(config['output_file'])")
         
         if [ -f "$CALENDAR_FILE" ]; then
-          git add "$CALENDAR_FILE"
-          if git diff --staged --quiet; then
-            echo "No changes to commit"
+          if git diff --quiet "$CALENDAR_FILE"; then
+            echo "changes=false" >> $GITHUB_OUTPUT
+            echo "ℹ️ Aucun changement détecté dans $CALENDAR_FILE"
           else
-            git commit -m "Update calendar $(date -u +'%Y-%m-%d')"
-            git push
-            echo "✅ Calendar $CALENDAR_FILE updated successfully"
+            echo "changes=true" >> $GITHUB_OUTPUT
+            echo "📝 Changements détectés dans $CALENDAR_FILE"
           fi
         else
-          echo "⚠️ Calendar file $CALENDAR_FILE not found"
+          echo "❌ Fichier calendrier $CALENDAR_FILE non trouvé"
           exit 1
         fi
+        
+    - name: 💾 Commit and push changes
+      if: steps.check_changes.outputs.changes == 'true'
+      run: |
+        git config --local user.email "bot@github.com"
+        git config --local user.name "CS2 Calendar Bot"
+        
+        CALENDAR_FILE=$(python -c "import json; config=json.load(open('config.json')); print(config['output_file'])")
+        
+        git add "$CALENDAR_FILE"
+        git commit -m "📅 Update CS2 calendar - $(date -u +'%Y-%m-%d at %H:%M UTC')"
+        
+        echo "🚀 Pushing changes..."
+        git push
+        echo "✅ Calendrier mis à jour avec succès !"
+        
+    - name: 📊 Summary
+      if: always()
+      run: |
+        echo "## 📊 Résumé de la mise à jour" >> $GITHUB_STEP_SUMMARY
+        echo "- **Heure**: $(date -u)" >> $GITHUB_STEP_SUMMARY
+        echo "- **Statut**: ${{ steps.check_changes.outputs.changes == 'true' && '📝 Mis à jour' || 'ℹ️ Aucun changement' }}" >> $GITHUB_STEP_SUMMARY
+        echo "- **Fichier**: $(python -c "import json; config=json.load(open('config.json')); print(config['output_file'])")" >> $GITHUB_STEP_SUMMARY

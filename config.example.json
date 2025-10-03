@@ -1,0 +1,23 @@
+{
+    "_comment": "Configuration d'exemple pour CS2 Teams Calendar",
+    "teams": [
+        "Vitality",
+        "G2", 
+        "NAVI",
+        "FaZe",
+        "Astralis"
+    ],
+    "match_durations": {
+        "bo1": 1.5,
+        "bo3": 4.0, 
+        "bo5": 6.5,
+        "bo7": 9.0
+    },
+    "output_file": "cs2_matches.ics",
+    "base_url": "https://bo3.gg/matches/",
+    "max_matches_per_team": 50,
+    "timezone": "UTC",
+    "calendar_name": "Mes Équipes CS2 Préférées",
+    "include_tournament_info": true,
+    "include_team_info": true
+}

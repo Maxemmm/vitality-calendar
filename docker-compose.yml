@@ -1,0 +1,37 @@
+version: '3.8'
+
+services:
+  cs2-calendar:
+    build: .
+    container_name: cs2-teams-calendar
+    volumes:
+      # Configuration utilisateur
+      - ./config.json:/app/config.json:ro
+      # Répertoire de sortie
+      - ./output:/app/output:rw
+    environment:
+      - TZ=UTC
+    restart: unless-stopped
+    
+  # Service de cron pour automatiser les générations
+  cs2-calendar-cron:
+    build: .
+    container_name: cs2-calendar-scheduler
+    volumes:
+      - ./config.json:/app/config.json:ro
+      - ./output:/app/output:rw
+    environment:
+      - TZ=UTC
+    command: |
+      sh -c '
+        echo "Installer cron..." &&
+        apt-get update && apt-get install -y cron &&
+        echo "0 0 * * * cd /app && python generate_calendar.py >> /var/log/cs2-calendar.log 2>&1" | crontab - &&
+        echo "0 12 * * * cd /app && python generate_calendar.py >> /var/log/cs2-calendar.log 2>&1" | crontab - &&
+        echo "Cron configuré pour 00h et 12h UTC" &&
+        cron &&
+        tail -f /var/log/cs2-calendar.log
+      '
+    restart: unless-stopped
+    depends_on:
+      - cs2-calendar

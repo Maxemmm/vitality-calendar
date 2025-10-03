@@ -1,2 +1,12 @@
-cs2api
-ics
+# CS2 Teams Calendar Dependencies
+# Versions figées pour garantir la stabilité
+
+# API pour Counter-Strike 2 et les données des équipes
+cs2api>=1.0.0
+
+# Génération de fichiers calendrier iCalendar
+ics>=0.8.0
+
+# Dépendances additionnelles pour la robustesse
+requests>=2.31.0
+python-dateutil>=2.8.0
