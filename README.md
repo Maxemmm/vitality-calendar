@@ -1,21 +1,22 @@
-# 🎮 Vitality Calendar
+# 🎮 CS2 Teams Calendar
 
 Calendrier automatique pour suivre les matchs de vos équipes CS2 préférées !
 
 ## ✨ Fonctionnalités
 
-- **📅 Génération automatique** de calendrier iCalendar (.ics)
-- **⚙️ Support multi-équipes** - suivez plusieurs équipes simultanément
+- **📅 Génération automatique** de calendrier iCalendar (.ics) pour CS2
+- **⚙️ Support multi-équipes** - suivez plusieurs équipes simultanément  
 - **⏱️ Durées intelligentes** basées sur le format des matchs (BO1, BO3, BO5, BO7)
 - **🔄 Mise à jour automatique** via GitHub Actions
 - **📱 Compatible** avec tous les calendriers (Outlook, Google Calendar, Apple Calendar, etc.)
+- **🎮 Spécialisé Counter-Strike 2** avec API bo3.gg
 
 ## 🚀 Installation rapide
 
 1. Clonez le repository :
 ```bash
-git clone https://github.com/votre-username/vitality-calendar.git
-cd vitality-calendar
+git clone https://github.com/votre-username/cs2-teams-calendar.git
+cd cs2-teams-calendar
 ```
 
 2. Installez les dépendances :
@@ -65,7 +66,7 @@ Le projet utilise GitHub Actions pour se mettre à jour automatiquement :
 ## 📁 Structure du projet
 
 ```
-vitality-calendar/
+cs2-teams-calendar/
 ├── .github/workflows/update-calendar.yml  # GitHub Actions
 ├── generate_calendar.py                   # Script principal
 ├── config.json                           # Configuration
@@ -82,17 +83,28 @@ vitality-calendar/
 - **BO5** : 6h30 (meilleur de 5)
 - **BO7** : 9h (meilleur de 7)
 
-## 🔍 Trouver l'ID d'une équipe
+## 🔍 Équipes CS2 populaires
 
-Pour ajouter une nouvelle équipe à votre calendrier, vous devez connaître son nom exact. Voici quelques équipes populaires :
+Pour ajouter une équipe à votre calendrier, vous devez connaître son nom exact dans l'API. Voici les principales équipes CS2 :
 
-- **Vitality** - Equipe principale française
-- **G2** - Equipe européenne  
-- **NAVI** (Natus Vincere) - Equipe ukrainienne
-- **FaZe** - Equipe internationale
-- **Astralis** - Equipe danoise
+- **Vitality** - Équipe française (Top mondial)
+- **NAVI** (Natus Vincere) - Équipe ukrainienne
+- **G2** - Équipe européenne
+- **FaZe** - Équipe internationale  
+- **Astralis** - Équipe danoise (ancienne puissance)
+- **Cloud9** - Équipe américaine
+- **Liquid** - Équipe internationale
+- **C9** - Cloud9 format court
 
-💡 **Conseil** : Les noms doivent être exacts. Utilisez le script `scripts/find_team.py` pour vérifier les noms disponibles.
+💡 **Conseil** : Le script trouvera automatiquement l'ID correspondant dès que vous tapez le nom de l'équipe.
+
+## 🔗 API utilisée
+
+Ce projet utilise l'API **[bo3.gg](https://bo3.gg)** qui fournit :
+- Les données des équipes CS2
+- Les matchs en temps réel
+- Les informations des tournois
+- Les liens directs vers les pages des matchs
 
 ## 🤝 Contribution
 
