@@ -1,0 +1,12 @@
+{
+    "teams": ["Vitality", "Gentle Mates"],
+    "match_durations": {
+      "bo1": 1.5,
+      "bo3": 4.0,
+      "bo5": 6.5,
+      "bo7": 9.0
+    },
+    "output_file": "matches.ics",
+    "base_url": "https://bo3.gg/matches/"
+  }
+  
