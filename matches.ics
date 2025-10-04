@@ -2,12 +2,39 @@ BEGIN:VCALENDAR
 VERSION:2.0
 PRODID:ics.py - http://git.io/lLljaA
 BEGIN:VEVENT
-CATEGORIES:BO1,CS2,Esports
+CATEGORIES:BO1,Esports,CS2
+DESCRIPTION:🎮 Counter-Strike 2 Match\n📋 Tournoi: ESL Pro League Season 22\n⚔️ Format: BO1\n⏱️ Durée estimée: 1:30:00\n🔍 Équipe suivie: 3DMAX\n🔗 Lien: https://bo3.gg/matches/furia-vs-3dmax-04-10-2025
+DURATION:PT1H30M
+DTSTART:20251004T160000Z
+SUMMARY:CS2: FURIA vs 3DMAX
+UID:8d5da60f-1091-4cae-901b-eb9379a1aa02@8d5d.org
+URL:https://bo3.gg/matches/furia-vs-3dmax-04-10-2025
+END:VEVENT
+BEGIN:VEVENT
+CATEGORIES:BO1,Esports,CS2
+DESCRIPTION:🎮 Counter-Strike 2 Match\n📋 Tournoi: ESL Pro League Season 22\n⚔️ Format: BO1\n⏱️ Durée estimée: 1:30:00\n🔍 Équipe suivie: Vitality\n🔗 Lien: https://bo3.gg/matches/vitality-vs-gentle-mates-cs-04-10-2025
+DURATION:PT1H30M
+DTSTART:20251004T133000Z
+SUMMARY:CS2: Vitality vs Gentle Mates
+UID:d4b0a284-3fda-45a8-8b16-703737b30e20@d4b0.org
+URL:https://bo3.gg/matches/vitality-vs-gentle-mates-cs-04-10-2025
+END:VEVENT
+BEGIN:VEVENT
+CATEGORIES:BO1,Esports,CS2
+DESCRIPTION:🎮 Counter-Strike 2 Match\n📋 Tournoi: ESL Pro League Season 22\n⚔️ Format: BO1\n⏱️ Durée estimée: 1:30:00\n🔍 Équipe suivie: Gentle Mates\n🔗 Lien: https://bo3.gg/matches/vitality-vs-gentle-mates-cs-04-10-2025
+DURATION:PT1H30M
+DTSTART:20251004T133000Z
+SUMMARY:CS2: Vitality vs Gentle Mates
+UID:1a60cb63-7dda-4a83-8a97-ee28254bfef5@1a60.org
+URL:https://bo3.gg/matches/vitality-vs-gentle-mates-cs-04-10-2025
+END:VEVENT
+BEGIN:VEVENT
+CATEGORIES:BO1,Esports,CS2
 DESCRIPTION:🎮 Counter-Strike 2 Match\n📋 Tournoi: CS Asia Championships 2025\n⚔️ Format: BO1\n⏱️ Durée estimée: 1:30:00\n🔍 Équipe suivie: 3DMAX\n🔗 Lien: https://bo3.gg/matches/3dmax-vs-the-huns-esports-14-10-2025
 DURATION:PT1H30M
 DTSTART:20251014T030000Z
 SUMMARY:CS2: 3DMAX vs The Huns
-UID:b5b2390c-27e2-4ed4-bda9-193aee444afb@b5b2.org
+UID:8e9ed273-1082-4727-8a9a-cf115b03c092@8e9e.org
 URL:https://bo3.gg/matches/3dmax-vs-the-huns-esports-14-10-2025
 END:VEVENT
 END:VCALENDAR
