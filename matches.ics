@@ -2,39 +2,39 @@ BEGIN:VCALENDAR
 VERSION:2.0
 PRODID:ics.py - http://git.io/lLljaA
 BEGIN:VEVENT
-CATEGORIES:Esports,CS2,BO1
-DESCRIPTION:🎮 Counter-Strike 2 Match\n📋 Tournoi: ESL Pro League Season 22\n⚔️ Format: BO1\n⏱️ Durée estimée: 1:30:00\n🔍 Équipe suivie: 3DMAX\n🔗 Lien: https://bo3.gg/matches/faze-vs-3dmax-05-10-2025
-DURATION:PT1H30M
-DTSTART:20251005T160000Z
-SUMMARY:CS2: FaZe vs 3DMAX
-UID:05d2bb81-170e-4d5d-8b81-6a4740791333@05d2.org
-URL:https://bo3.gg/matches/faze-vs-3dmax-05-10-2025
-END:VEVENT
-BEGIN:VEVENT
-CATEGORIES:Esports,CS2,BO1
+CATEGORIES:Esports,BO1,CS2
 DESCRIPTION:🎮 Counter-Strike 2 Match\n📋 Tournoi: CS Asia Championships 2025\n⚔️ Format: BO1\n⏱️ Durée estimée: 1:30:00\n🔍 Équipe suivie: 3DMAX\n🔗 Lien: https://bo3.gg/matches/3dmax-vs-the-huns-esports-14-10-2025
 DURATION:PT1H30M
 DTSTART:20251014T030000Z
 SUMMARY:CS2: 3DMAX vs The Huns
-UID:71d11dbb-e1b8-41c0-acc3-8a043f0d2fd7@71d1.org
+UID:92b0e995-23fc-4d4a-9e40-b2418527e404@92b0.org
 URL:https://bo3.gg/matches/3dmax-vs-the-huns-esports-14-10-2025
 END:VEVENT
 BEGIN:VEVENT
-CATEGORIES:Esports,CS2,BO1
+CATEGORIES:Esports,BO1,CS2
 DESCRIPTION:🎮 Counter-Strike 2 Match\n📋 Tournoi: ESL Pro League Season 22\n⚔️ Format: BO1\n⏱️ Durée estimée: 1:30:00\n🔍 Équipe suivie: Vitality\n🔗 Lien: https://bo3.gg/matches/vitality-vs-gamerlegion-05-10-2025
 DURATION:PT1H30M
 DTSTART:20251005T133000Z
 SUMMARY:CS2: Vitality vs GamerLegion
-UID:1d5e408e-9468-4b3d-9688-46f306d6d289@1d5e.org
+UID:21281007-f7e2-43c5-9819-11477089fc8c@2128.org
 URL:https://bo3.gg/matches/vitality-vs-gamerlegion-05-10-2025
 END:VEVENT
 BEGIN:VEVENT
-CATEGORIES:Esports,CS2,BO1
+CATEGORIES:Esports,BO1,CS2
 DESCRIPTION:🎮 Counter-Strike 2 Match\n📋 Tournoi: ESL Pro League Season 22\n⚔️ Format: BO1\n⏱️ Durée estimée: 1:30:00\n🔍 Équipe suivie: Gentle Mates\n🔗 Lien: https://bo3.gg/matches/mousesports-vs-gentle-mates-cs-05-10-2025
 DURATION:PT1H30M
 DTSTART:20251005T110000Z
 SUMMARY:CS2: MOUZ vs Gentle Mates
-UID:e0b19b55-ac42-4f2c-b793-d8aaae2bd25c@e0b1.org
+UID:7bfe8d9b-b7cb-444b-acfd-705aa658083c@7bfe.org
 URL:https://bo3.gg/matches/mousesports-vs-gentle-mates-cs-05-10-2025
+END:VEVENT
+BEGIN:VEVENT
+CATEGORIES:Esports,BO1,CS2
+DESCRIPTION:🎮 Counter-Strike 2 Match\n📋 Tournoi: ESL Pro League Season 22\n⚔️ Format: BO1\n⏱️ Durée estimée: 1:30:00\n🔍 Équipe suivie: 3DMAX\n🔗 Lien: https://bo3.gg/matches/faze-vs-3dmax-05-10-2025
+DURATION:PT1H30M
+DTSTART:20251005T160000Z
+SUMMARY:CS2: FaZe vs 3DMAX
+UID:ea0df2d9-16fd-4c85-a7e8-1ab5c4666224@ea0d.org
+URL:https://bo3.gg/matches/faze-vs-3dmax-05-10-2025
 END:VEVENT
 END:VCALENDAR
