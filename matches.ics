@@ -7,34 +7,43 @@ DESCRIPTION:🎮 Counter-Strike 2 Match\n📋 Tournoi: CS Asia Championships 202
 DURATION:PT1H30M
 DTSTART:20251014T030000Z
 SUMMARY:CS2: 3DMAX vs The Huns
-UID:92b0e995-23fc-4d4a-9e40-b2418527e404@92b0.org
+UID:2a62aa7b-3dcd-4cd7-8ba0-baf160aa5279@2a62.org
 URL:https://bo3.gg/matches/3dmax-vs-the-huns-esports-14-10-2025
 END:VEVENT
 BEGIN:VEVENT
 CATEGORIES:Esports,BO1,CS2
-DESCRIPTION:🎮 Counter-Strike 2 Match\n📋 Tournoi: ESL Pro League Season 22\n⚔️ Format: BO1\n⏱️ Durée estimée: 1:30:00\n🔍 Équipe suivie: Vitality\n🔗 Lien: https://bo3.gg/matches/vitality-vs-gamerlegion-05-10-2025
+DESCRIPTION:🎮 Counter-Strike 2 Match\n📋 Tournoi: ESL Pro League Season 22\n⚔️ Format: BO1\n⏱️ Durée estimée: 1:30:00\n🔍 Équipe suivie: Vitality\n🔗 Lien: https://bo3.gg/matches/vitality-vs-hotu-06-10-2025
 DURATION:PT1H30M
-DTSTART:20251005T133000Z
-SUMMARY:CS2: Vitality vs GamerLegion
-UID:21281007-f7e2-43c5-9819-11477089fc8c@2128.org
-URL:https://bo3.gg/matches/vitality-vs-gamerlegion-05-10-2025
+DTSTART:20251006T083000Z
+SUMMARY:CS2: Vitality vs HOTU
+UID:ff82dbb6-47fb-495f-972e-bb463d7106aa@ff82.org
+URL:https://bo3.gg/matches/vitality-vs-hotu-06-10-2025
 END:VEVENT
 BEGIN:VEVENT
 CATEGORIES:Esports,BO1,CS2
-DESCRIPTION:🎮 Counter-Strike 2 Match\n📋 Tournoi: ESL Pro League Season 22\n⚔️ Format: BO1\n⏱️ Durée estimée: 1:30:00\n🔍 Équipe suivie: Gentle Mates\n🔗 Lien: https://bo3.gg/matches/mousesports-vs-gentle-mates-cs-05-10-2025
+DESCRIPTION:🎮 Counter-Strike 2 Match\n📋 Tournoi: Galaxy Battle 2025 // Phase 4\n⚔️ Format: BO1\n⏱️ Durée estimée: 1:30:00\n🔍 Équipe suivie: Gentle Mates\n🔗 Lien: https://bo3.gg/matches/gentle-mates-cs-vs-anonymo-esports-08-10-2025
 DURATION:PT1H30M
-DTSTART:20251005T110000Z
-SUMMARY:CS2: MOUZ vs Gentle Mates
-UID:7bfe8d9b-b7cb-444b-acfd-705aa658083c@7bfe.org
-URL:https://bo3.gg/matches/mousesports-vs-gentle-mates-cs-05-10-2025
+DTSTART:20251008T110000Z
+SUMMARY:CS2: Gentle Mates vs Anonymo
+UID:995ea387-d82d-439d-8424-cda312ef3320@995e.org
+URL:https://bo3.gg/matches/gentle-mates-cs-vs-anonymo-esports-08-10-2025
 END:VEVENT
 BEGIN:VEVENT
 CATEGORIES:Esports,BO1,CS2
-DESCRIPTION:🎮 Counter-Strike 2 Match\n📋 Tournoi: ESL Pro League Season 22\n⚔️ Format: BO1\n⏱️ Durée estimée: 1:30:00\n🔍 Équipe suivie: 3DMAX\n🔗 Lien: https://bo3.gg/matches/faze-vs-3dmax-05-10-2025
+DESCRIPTION:🎮 Counter-Strike 2 Match\n📋 Tournoi: ESL Pro League Season 22\n⚔️ Format: BO1\n⏱️ Durée estimée: 1:30:00\n🔍 Équipe suivie: Gentle Mates\n🔗 Lien: https://bo3.gg/matches/gentle-mates-cs-vs-aurora-gaming-06-10-2025
 DURATION:PT1H30M
-DTSTART:20251005T160000Z
-SUMMARY:CS2: FaZe vs 3DMAX
-UID:ea0df2d9-16fd-4c85-a7e8-1ab5c4666224@ea0d.org
-URL:https://bo3.gg/matches/faze-vs-3dmax-05-10-2025
+DTSTART:20251006T083000Z
+SUMMARY:CS2: Gentle Mates vs Aurora
+UID:198ceac5-e533-4809-9402-d433bb2defb7@198c.org
+URL:https://bo3.gg/matches/gentle-mates-cs-vs-aurora-gaming-06-10-2025
+END:VEVENT
+BEGIN:VEVENT
+CATEGORIES:Esports,BO1,CS2
+DESCRIPTION:🎮 Counter-Strike 2 Match\n📋 Tournoi: ESL Pro League Season 22\n⚔️ Format: BO1\n⏱️ Durée estimée: 1:30:00\n🔍 Équipe suivie: 3DMAX\n🔗 Lien: https://bo3.gg/matches/3dmax-vs-natus-vincere-06-10-2025
+DURATION:PT1H30M
+DTSTART:20251006T110000Z
+SUMMARY:CS2: 3DMAX vs Natus Vincere
+UID:e2ff9c9c-cc30-4636-995a-9c7cc2ac4b9a@e2ff.org
+URL:https://bo3.gg/matches/3dmax-vs-natus-vincere-06-10-2025
 END:VEVENT
 END:VCALENDAR
