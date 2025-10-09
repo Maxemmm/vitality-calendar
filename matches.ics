@@ -3,21 +3,12 @@ VERSION:2.0
 PRODID:ics.py - http://git.io/lLljaA
 BEGIN:VEVENT
 CATEGORIES:BO1,CS2,Esports
-DESCRIPTION:🎮 Counter-Strike 2 Match\n📋 Tournoi: ESL Pro League Season 22\n⚔️ Format: BO1\n⏱️ Durée estimée: 1:30:00\n🔍 Équipe suivie: Vitality\n🔗 Lien: https://bo3.gg/matches/furia-vs-vitality-10-10-2025
+DESCRIPTION:🎮 Counter-Strike 2 Match\n📋 Tournoi: CS Asia Championships 2025\n⚔️ Format: BO1\n⏱️ Durée estimée: 1:30:00\n🔍 Équipe suivie: 3DMAX\n🔗 Lien: https://bo3.gg/matches/3dmax-vs-the-huns-esports-14-10-2025
 DURATION:PT1H30M
-DTSTART:20251010T160000Z
-SUMMARY:CS2: FURIA vs Vitality
-UID:c401fc5e-eda0-45dc-ad11-e1b691733296@c401.org
-URL:https://bo3.gg/matches/furia-vs-vitality-10-10-2025
-END:VEVENT
-BEGIN:VEVENT
-CATEGORIES:BO1,CS2,Esports
-DESCRIPTION:🎮 Counter-Strike 2 Match\n📋 Tournoi: Galaxy Battle 2025 // Phase 4\n⚔️ Format: BO1\n⏱️ Durée estimée: 1:30:00\n🔍 Équipe suivie: Gentle Mates\n🔗 Lien: https://bo3.gg/matches/gun5-vs-gentle-mates-cs-11-10-2025
-DURATION:PT1H30M
-DTSTART:20251011T140000Z
-SUMMARY:CS2: GUN5 vs Gentle Mates
-UID:cfdcd85c-7cdb-48f1-ba90-205e0ac5d09f@cfdc.org
-URL:https://bo3.gg/matches/gun5-vs-gentle-mates-cs-11-10-2025
+DTSTART:20251014T030000Z
+SUMMARY:CS2: 3DMAX vs The Huns
+UID:614e2b22-91df-40d2-af5f-ca3b7f7905f3@614e.org
+URL:https://bo3.gg/matches/3dmax-vs-the-huns-esports-14-10-2025
 END:VEVENT
 BEGIN:VEVENT
 CATEGORIES:BO1,CS2,Esports
@@ -25,7 +16,7 @@ DESCRIPTION:🎮 Counter-Strike 2 Match\n📋 Tournoi: Galaxy Battle 2025 // Pha
 DURATION:PT1H30M
 DTSTART:20251010T170000Z
 SUMMARY:CS2: Betclic vs Gentle Mates
-UID:6ff9d19f-e369-4158-8f85-f2c0a50103fa@6ff9.org
+UID:d1a00de3-4ff3-4d6d-868c-be2fe686866b@d1a0.org
 URL:https://bo3.gg/matches/gentle-mates-cs-vs-betclic-apogee-esports-10-10-2025
 END:VEVENT
 BEGIN:VEVENT
@@ -34,16 +25,16 @@ DESCRIPTION:🎮 Counter-Strike 2 Match\n📋 Tournoi: ESL Pro League Season 22\
 DURATION:PT1H30M
 DTSTART:20251010T083000Z
 SUMMARY:CS2: 3DMAX vs Falcons
-UID:0348284d-ea25-4d1c-ac31-10755d2e017c@0348.org
+UID:695bf27e-f0a2-4f5e-b18b-1e7b2ce0b213@695b.org
 URL:https://bo3.gg/matches/3dmax-vs-falcons-esports-10-10-2025
 END:VEVENT
 BEGIN:VEVENT
 CATEGORIES:BO1,CS2,Esports
-DESCRIPTION:🎮 Counter-Strike 2 Match\n📋 Tournoi: CS Asia Championships 2025\n⚔️ Format: BO1\n⏱️ Durée estimée: 1:30:00\n🔍 Équipe suivie: 3DMAX\n🔗 Lien: https://bo3.gg/matches/3dmax-vs-the-huns-esports-14-10-2025
+DESCRIPTION:🎮 Counter-Strike 2 Match\n📋 Tournoi: ESL Pro League Season 22\n⚔️ Format: BO1\n⏱️ Durée estimée: 1:30:00\n🔍 Équipe suivie: Vitality\n🔗 Lien: https://bo3.gg/matches/furia-vs-vitality-10-10-2025
 DURATION:PT1H30M
-DTSTART:20251014T030000Z
-SUMMARY:CS2: 3DMAX vs The Huns
-UID:bf0feb5b-ca57-438f-ac9a-da27b2890302@bf0f.org
-URL:https://bo3.gg/matches/3dmax-vs-the-huns-esports-14-10-2025
+DTSTART:20251010T160000Z
+SUMMARY:CS2: FURIA vs Vitality
+UID:1e108141-21c5-4abd-b6e9-c2c9c46d0d04@1e10.org
+URL:https://bo3.gg/matches/furia-vs-vitality-10-10-2025
 END:VEVENT
 END:VCALENDAR
