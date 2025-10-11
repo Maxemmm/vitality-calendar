@@ -2,30 +2,30 @@ BEGIN:VCALENDAR
 VERSION:2.0
 PRODID:ics.py - http://git.io/lLljaA
 BEGIN:VEVENT
-CATEGORIES:BO1,CS2,Esports
-DESCRIPTION:🎮 Counter-Strike 2 Match\n📋 Tournoi: CS Asia Championships 2025\n⚔️ Format: BO1\n⏱️ Durée estimée: 1:30:00\n🔍 Équipe suivie: 3DMAX\n🔗 Lien: https://bo3.gg/matches/3dmax-vs-the-huns-esports-14-10-2025
-DURATION:PT1H30M
-DTSTART:20251014T030000Z
-SUMMARY:CS2: 3DMAX vs The Huns
-UID:b0006f42-e22b-41c2-a4df-925719f1b53c@b000.org
-URL:https://bo3.gg/matches/3dmax-vs-the-huns-esports-14-10-2025
-END:VEVENT
-BEGIN:VEVENT
-CATEGORIES:BO1,CS2,Esports
+CATEGORIES:BO1,Esports,CS2
 DESCRIPTION:🎮 Counter-Strike 2 Match\n📋 Tournoi: ESL Pro League Season 22\n⚔️ Format: BO1\n⏱️ Durée estimée: 1:30:00\n🔍 Équipe suivie: Vitality\n🔗 Lien: https://bo3.gg/matches/faze-vs-vitality-11-10-2025
 DURATION:PT1H30M
 DTSTART:20251011T134500Z
 SUMMARY:CS2: FaZe vs Vitality
-UID:8a5fea1e-8a62-4114-99de-359f88f03b9e@8a5f.org
+UID:dfacf840-648d-4a44-9088-3de3b13eb365@dfac.org
 URL:https://bo3.gg/matches/faze-vs-vitality-11-10-2025
 END:VEVENT
 BEGIN:VEVENT
-CATEGORIES:BO1,CS2,Esports
+CATEGORIES:BO1,Esports,CS2
 DESCRIPTION:🎮 Counter-Strike 2 Match\n📋 Tournoi: Galaxy Battle 2025 // Phase 4\n⚔️ Format: BO1\n⏱️ Durée estimée: 1:30:00\n🔍 Équipe suivie: Gentle Mates\n🔗 Lien: https://bo3.gg/matches/parivision-vs-gentle-mates-cs-11-10-2025
 DURATION:PT1H30M
 DTSTART:20251011T140000Z
 SUMMARY:CS2: Gentle Mates vs PARIVISION
-UID:2252f043-f463-41ea-b06d-8dbc59d990e1@2252.org
+UID:71c5a384-07d1-454f-827e-81bc402faad0@71c5.org
 URL:https://bo3.gg/matches/parivision-vs-gentle-mates-cs-11-10-2025
+END:VEVENT
+BEGIN:VEVENT
+CATEGORIES:BO1,Esports,CS2
+DESCRIPTION:🎮 Counter-Strike 2 Match\n📋 Tournoi: CS Asia Championships 2025\n⚔️ Format: BO1\n⏱️ Durée estimée: 1:30:00\n🔍 Équipe suivie: 3DMAX\n🔗 Lien: https://bo3.gg/matches/3dmax-vs-the-huns-esports-14-10-2025
+DURATION:PT1H30M
+DTSTART:20251014T030000Z
+SUMMARY:CS2: 3DMAX vs The Huns
+UID:56ddc77a-fc7c-41aa-806c-146a5f1d7bc5@56dd.org
+URL:https://bo3.gg/matches/3dmax-vs-the-huns-esports-14-10-2025
 END:VEVENT
 END:VCALENDAR
