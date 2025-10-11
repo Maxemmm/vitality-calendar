@@ -3,29 +3,29 @@ VERSION:2.0
 PRODID:ics.py - http://git.io/lLljaA
 BEGIN:VEVENT
 CATEGORIES:BO1,CS2,Esports
-DESCRIPTION:🎮 Counter-Strike 2 Match\n📋 Tournoi: ESL Pro League Season 22\n⚔️ Format: BO1\n⏱️ Durée estimée: 1:30:00\n🔍 Équipe suivie: Vitality\n🔗 Lien: https://bo3.gg/matches/furia-vs-vitality-10-10-2025
-DURATION:PT1H30M
-DTSTART:20251010T160000Z
-SUMMARY:CS2: FURIA vs Vitality
-UID:52b088a8-e9d9-4db1-b568-80f53d15e61f@52b0.org
-URL:https://bo3.gg/matches/furia-vs-vitality-10-10-2025
-END:VEVENT
-BEGIN:VEVENT
-CATEGORIES:BO1,CS2,Esports
 DESCRIPTION:🎮 Counter-Strike 2 Match\n📋 Tournoi: CS Asia Championships 2025\n⚔️ Format: BO1\n⏱️ Durée estimée: 1:30:00\n🔍 Équipe suivie: 3DMAX\n🔗 Lien: https://bo3.gg/matches/3dmax-vs-the-huns-esports-14-10-2025
 DURATION:PT1H30M
 DTSTART:20251014T030000Z
 SUMMARY:CS2: 3DMAX vs The Huns
-UID:d55a71eb-81e0-4814-bddd-2dd7a8d50780@d55a.org
+UID:b0006f42-e22b-41c2-a4df-925719f1b53c@b000.org
 URL:https://bo3.gg/matches/3dmax-vs-the-huns-esports-14-10-2025
 END:VEVENT
 BEGIN:VEVENT
 CATEGORIES:BO1,CS2,Esports
-DESCRIPTION:🎮 Counter-Strike 2 Match\n📋 Tournoi: Galaxy Battle 2025 // Phase 4\n⚔️ Format: BO1\n⏱️ Durée estimée: 1:30:00\n🔍 Équipe suivie: Gentle Mates\n🔗 Lien: https://bo3.gg/matches/gentle-mates-cs-vs-betclic-apogee-esports-10-10-2025
+DESCRIPTION:🎮 Counter-Strike 2 Match\n📋 Tournoi: ESL Pro League Season 22\n⚔️ Format: BO1\n⏱️ Durée estimée: 1:30:00\n🔍 Équipe suivie: Vitality\n🔗 Lien: https://bo3.gg/matches/faze-vs-vitality-11-10-2025
 DURATION:PT1H30M
-DTSTART:20251010T170000Z
-SUMMARY:CS2: Betclic vs Gentle Mates
-UID:fc98f2d6-bdfa-445a-93d2-7bf01bde1d3e@fc98.org
-URL:https://bo3.gg/matches/gentle-mates-cs-vs-betclic-apogee-esports-10-10-2025
+DTSTART:20251011T134500Z
+SUMMARY:CS2: FaZe vs Vitality
+UID:8a5fea1e-8a62-4114-99de-359f88f03b9e@8a5f.org
+URL:https://bo3.gg/matches/faze-vs-vitality-11-10-2025
+END:VEVENT
+BEGIN:VEVENT
+CATEGORIES:BO1,CS2,Esports
+DESCRIPTION:🎮 Counter-Strike 2 Match\n📋 Tournoi: Galaxy Battle 2025 // Phase 4\n⚔️ Format: BO1\n⏱️ Durée estimée: 1:30:00\n🔍 Équipe suivie: Gentle Mates\n🔗 Lien: https://bo3.gg/matches/parivision-vs-gentle-mates-cs-11-10-2025
+DURATION:PT1H30M
+DTSTART:20251011T140000Z
+SUMMARY:CS2: Gentle Mates vs PARIVISION
+UID:2252f043-f463-41ea-b06d-8dbc59d990e1@2252.org
+URL:https://bo3.gg/matches/parivision-vs-gentle-mates-cs-11-10-2025
 END:VEVENT
 END:VCALENDAR
