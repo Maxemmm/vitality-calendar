@@ -2,21 +2,21 @@ BEGIN:VCALENDAR
 VERSION:2.0
 PRODID:ics.py - http://git.io/lLljaA
 BEGIN:VEVENT
-CATEGORIES:Esports,CS2,BO1
-DESCRIPTION:🎮 Counter-Strike 2 Match\n📋 Tournoi: ESL Pro League Season 22\n⚔️ Format: BO1\n⏱️ Durée estimée: 1:30:00\n🔍 Équipe suivie: Vitality\n🔗 Lien: https://bo3.gg/matches/falcons-esports-vs-vitality-12-10-2025
-DURATION:PT1H30M
-DTSTART:20251012T150000Z
-SUMMARY:CS2: Vitality vs Falcons
-UID:1959b3c4-8ba5-43ab-b1f5-eaf1d3b16c0a@1959.org
-URL:https://bo3.gg/matches/falcons-esports-vs-vitality-12-10-2025
-END:VEVENT
-BEGIN:VEVENT
-CATEGORIES:Esports,CS2,BO1
+CATEGORIES:BO1,Esports,CS2
 DESCRIPTION:🎮 Counter-Strike 2 Match\n📋 Tournoi: CS Asia Championships 2025\n⚔️ Format: BO1\n⏱️ Durée estimée: 1:30:00\n🔍 Équipe suivie: 3DMAX\n🔗 Lien: https://bo3.gg/matches/3dmax-vs-the-huns-esports-14-10-2025
 DURATION:PT1H30M
 DTSTART:20251014T030000Z
 SUMMARY:CS2: 3DMAX vs The Huns
-UID:68aab4d7-36ba-4acb-b0f6-381c5056da93@68aa.org
+UID:83828a09-5576-4e59-903e-d990fbb0a155@8382.org
 URL:https://bo3.gg/matches/3dmax-vs-the-huns-esports-14-10-2025
+END:VEVENT
+BEGIN:VEVENT
+CATEGORIES:BO1,Esports,CS2
+DESCRIPTION:🎮 Counter-Strike 2 Match\n📋 Tournoi: ESL Pro League Season 22\n⚔️ Format: BO1\n⏱️ Durée estimée: 1:30:00\n🔍 Équipe suivie: Vitality\n🔗 Lien: https://bo3.gg/matches/falcons-esports-vs-vitality-12-10-2025
+DURATION:PT1H30M
+DTSTART:20251012T150000Z
+SUMMARY:CS2: Vitality vs Falcons
+UID:a02bed0a-0866-401e-a539-b81b24e17ca4@a02b.org
+URL:https://bo3.gg/matches/falcons-esports-vs-vitality-12-10-2025
 END:VEVENT
 END:VCALENDAR
