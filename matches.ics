@@ -2,30 +2,21 @@ BEGIN:VCALENDAR
 VERSION:2.0
 PRODID:ics.py - http://git.io/lLljaA
 BEGIN:VEVENT
-CATEGORIES:BO1,Esports,CS2
-DESCRIPTION:🎮 Counter-Strike 2 Match\n📋 Tournoi: ESL Pro League Season 22\n⚔️ Format: BO1\n⏱️ Durée estimée: 1:30:00\n🔍 Équipe suivie: Vitality\n🔗 Lien: https://bo3.gg/matches/faze-vs-vitality-11-10-2025
+CATEGORIES:Esports,CS2,BO1
+DESCRIPTION:🎮 Counter-Strike 2 Match\n📋 Tournoi: ESL Pro League Season 22\n⚔️ Format: BO1\n⏱️ Durée estimée: 1:30:00\n🔍 Équipe suivie: Vitality\n🔗 Lien: https://bo3.gg/matches/falcons-esports-vs-vitality-12-10-2025
 DURATION:PT1H30M
-DTSTART:20251011T134500Z
-SUMMARY:CS2: FaZe vs Vitality
-UID:dfacf840-648d-4a44-9088-3de3b13eb365@dfac.org
-URL:https://bo3.gg/matches/faze-vs-vitality-11-10-2025
+DTSTART:20251012T150000Z
+SUMMARY:CS2: Vitality vs Falcons
+UID:1959b3c4-8ba5-43ab-b1f5-eaf1d3b16c0a@1959.org
+URL:https://bo3.gg/matches/falcons-esports-vs-vitality-12-10-2025
 END:VEVENT
 BEGIN:VEVENT
-CATEGORIES:BO1,Esports,CS2
-DESCRIPTION:🎮 Counter-Strike 2 Match\n📋 Tournoi: Galaxy Battle 2025 // Phase 4\n⚔️ Format: BO1\n⏱️ Durée estimée: 1:30:00\n🔍 Équipe suivie: Gentle Mates\n🔗 Lien: https://bo3.gg/matches/parivision-vs-gentle-mates-cs-11-10-2025
-DURATION:PT1H30M
-DTSTART:20251011T140000Z
-SUMMARY:CS2: Gentle Mates vs PARIVISION
-UID:71c5a384-07d1-454f-827e-81bc402faad0@71c5.org
-URL:https://bo3.gg/matches/parivision-vs-gentle-mates-cs-11-10-2025
-END:VEVENT
-BEGIN:VEVENT
-CATEGORIES:BO1,Esports,CS2
+CATEGORIES:Esports,CS2,BO1
 DESCRIPTION:🎮 Counter-Strike 2 Match\n📋 Tournoi: CS Asia Championships 2025\n⚔️ Format: BO1\n⏱️ Durée estimée: 1:30:00\n🔍 Équipe suivie: 3DMAX\n🔗 Lien: https://bo3.gg/matches/3dmax-vs-the-huns-esports-14-10-2025
 DURATION:PT1H30M
 DTSTART:20251014T030000Z
 SUMMARY:CS2: 3DMAX vs The Huns
-UID:56ddc77a-fc7c-41aa-806c-146a5f1d7bc5@56dd.org
+UID:68aab4d7-36ba-4acb-b0f6-381c5056da93@68aa.org
 URL:https://bo3.gg/matches/3dmax-vs-the-huns-esports-14-10-2025
 END:VEVENT
 END:VCALENDAR
