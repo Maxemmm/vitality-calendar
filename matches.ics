@@ -2,12 +2,12 @@ BEGIN:VCALENDAR
 VERSION:2.0
 PRODID:ics.py - http://git.io/lLljaA
 BEGIN:VEVENT
-CATEGORIES:Esports,CS2,BO1
+CATEGORIES:CS2,Esports,BO1
 DESCRIPTION:🎮 Counter-Strike 2 Match\n📋 Tournoi: CS Asia Championships 2025\n⚔️ Format: BO1\n⏱️ Durée estimée: 1:30:00\n🔍 Équipe suivie: 3DMAX\n🔗 Lien: https://bo3.gg/matches/3dmax-vs-lynn-vision-15-10-2025
 DURATION:PT1H30M
-DTSTART:20251015T090000Z
+DTSTART:20251015T104500Z
 SUMMARY:CS2: 3DMAX vs Lynn Vision
-UID:55915ecf-ced8-4a5b-89eb-6e2a821ee33f@5591.org
+UID:b8b9a0ea-0164-4517-9e7c-97256ef3ead2@b8b9.org
 URL:https://bo3.gg/matches/3dmax-vs-lynn-vision-15-10-2025
 END:VEVENT
 END:VCALENDAR
