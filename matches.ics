@@ -2,12 +2,12 @@ BEGIN:VCALENDAR
 VERSION:2.0
 PRODID:ics.py - http://git.io/lLljaA
 BEGIN:VEVENT
-CATEGORIES:CS2,Esports,BO1
-DESCRIPTION:🎮 Counter-Strike 2 Match\n📋 Tournoi: CS Asia Championships 2025\n⚔️ Format: BO1\n⏱️ Durée estimée: 1:30:00\n🔍 Équipe suivie: 3DMAX\n🔗 Lien: https://bo3.gg/matches/3dmax-vs-lynn-vision-15-10-2025
+CATEGORIES:Esports,BO1,CS2
+DESCRIPTION:🎮 Counter-Strike 2 Match\n📋 Tournoi: PGL Masters Bucharest 2025\n⚔️ Format: BO1\n⏱️ Durée estimée: 1:30:00\n🔍 Équipe suivie: Gentle Mates\n🔗 Lien: https://bo3.gg/matches/pain-gaming-vs-gentle-mates-cs-26-10-2025
 DURATION:PT1H30M
-DTSTART:20251015T104500Z
-SUMMARY:CS2: 3DMAX vs Lynn Vision
-UID:b8b9a0ea-0164-4517-9e7c-97256ef3ead2@b8b9.org
-URL:https://bo3.gg/matches/3dmax-vs-lynn-vision-15-10-2025
+DTSTART:20251026T080000Z
+SUMMARY:CS2: paiN vs Gentle Mates
+UID:54e93d95-9ec0-471b-9949-3bc1d1b26afd@54e9.org
+URL:https://bo3.gg/matches/pain-gaming-vs-gentle-mates-cs-26-10-2025
 END:VEVENT
 END:VCALENDAR
