@@ -2,21 +2,21 @@ BEGIN:VCALENDAR
 VERSION:2.0
 PRODID:ics.py - http://git.io/lLljaA
 BEGIN:VEVENT
-CATEGORIES:CS2,BO1,Esports
-DESCRIPTION:🎮 Counter-Strike 2 Match\n📋 Tournoi: PGL Masters Bucharest 2025\n⚔️ Format: BO1\n⏱️ Durée estimée: 1:30:00\n🔍 Équipe suivie: Gentle Mates\n🔗 Lien: https://bo3.gg/matches/pain-gaming-vs-gentle-mates-cs-26-10-2025
-DURATION:PT1H30M
-DTSTART:20251026T080000Z
-SUMMARY:CS2: paiN vs Gentle Mates
-UID:c49a6f0e-d960-4043-96cf-ab97a3be5857@c49a.org
-URL:https://bo3.gg/matches/pain-gaming-vs-gentle-mates-cs-26-10-2025
-END:VEVENT
-BEGIN:VEVENT
-CATEGORIES:CS2,BO1,Esports
+CATEGORIES:CS2,Esports,BO1
 DESCRIPTION:🎮 Counter-Strike 2 Match\n📋 Tournoi: Intel Extreme Masters Chengdu 2025\n⚔️ Format: BO1\n⏱️ Durée estimée: 1:30:00\n🔍 Équipe suivie: Vitality\n🔗 Lien: https://bo3.gg/matches/vitality-vs-virtus-pro-03-11-2025
 DURATION:PT1H30M
 DTSTART:20251103T043000Z
 SUMMARY:CS2: Vitality vs Virtus.pro
-UID:ccc26eb0-d5a2-4b82-90df-87cc7fb27458@ccc2.org
+UID:fce3ba8e-b570-4f54-b2e6-c2e749c12474@fce3.org
 URL:https://bo3.gg/matches/vitality-vs-virtus-pro-03-11-2025
+END:VEVENT
+BEGIN:VEVENT
+CATEGORIES:CS2,Esports,BO1
+DESCRIPTION:🎮 Counter-Strike 2 Match\n📋 Tournoi: PGL Masters Bucharest 2025\n⚔️ Format: BO1\n⏱️ Durée estimée: 1:30:00\n🔍 Équipe suivie: Gentle Mates\n🔗 Lien: https://bo3.gg/matches/pain-gaming-vs-gentle-mates-cs-26-10-2025
+DURATION:PT1H30M
+DTSTART:20251026T080000Z
+SUMMARY:CS2: paiN vs Gentle Mates
+UID:8673116e-167d-480d-8b13-fe7ceb813339@8673.org
+URL:https://bo3.gg/matches/pain-gaming-vs-gentle-mates-cs-26-10-2025
 END:VEVENT
 END:VCALENDAR
