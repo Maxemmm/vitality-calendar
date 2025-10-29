@@ -2,30 +2,30 @@ BEGIN:VCALENDAR
 VERSION:2.0
 PRODID:ics.py - http://git.io/lLljaA
 BEGIN:VEVENT
-CATEGORIES:BO1,CS2,Esports
-DESCRIPTION:🎮 Counter-Strike 2 Match\n📋 Tournoi: PGL Masters Bucharest 2025\n⚔️ Format: BO1\n⏱️ Durée estimée: 1:30:00\n🔍 Équipe suivie: Gentle Mates\n🔗 Lien: https://bo3.gg/matches/betboom-team-vs-gentle-mates-cs-29-10-2025
-DURATION:PT1H30M
-DTSTART:20251029T110000Z
-SUMMARY:CS2: BetBoom vs Gentle Mates
-UID:4e7f10c1-dbbc-4f2e-ab71-af0e9e58f5f4@4e7f.org
-URL:https://bo3.gg/matches/betboom-team-vs-gentle-mates-cs-29-10-2025
-END:VEVENT
-BEGIN:VEVENT
-CATEGORIES:BO1,CS2,Esports
+CATEGORIES:Esports,BO1,CS2
 DESCRIPTION:🎮 Counter-Strike 2 Match\n📋 Tournoi: Intel Extreme Masters Chengdu 2025\n⚔️ Format: BO1\n⏱️ Durée estimée: 1:30:00\n🔍 Équipe suivie: Vitality\n🔗 Lien: https://bo3.gg/matches/vitality-vs-virtus-pro-03-11-2025
 DURATION:PT1H30M
 DTSTART:20251103T043000Z
 SUMMARY:CS2: Vitality vs Virtus.pro
-UID:0d363fd1-d0d6-41ee-b85e-d4eb27709187@0d36.org
+UID:567b5e74-7ef8-407f-a49e-bdf221b857b7@567b.org
 URL:https://bo3.gg/matches/vitality-vs-virtus-pro-03-11-2025
 END:VEVENT
 BEGIN:VEVENT
-CATEGORIES:BO1,CS2,Esports
+CATEGORIES:Esports,BO1,CS2
 DESCRIPTION:🎮 Counter-Strike 2 Match\n📋 Tournoi: BLAST Rivals Fall 2025\n⚔️ Format: BO1\n⏱️ Durée estimée: 1:30:00\n🔍 Équipe suivie: Vitality\n🔗 Lien: https://bo3.gg/matches/vitality-vs-tyloo-cs-go-12-11-2025
 DURATION:PT1H30M
 DTSTART:20251112T093000Z
 SUMMARY:CS2: Vitality vs TYLOO
-UID:1c5d1fba-9abe-425c-adb0-4f30684788f0@1c5d.org
+UID:05a486a5-024b-4f09-aa70-3df7d429b454@05a4.org
 URL:https://bo3.gg/matches/vitality-vs-tyloo-cs-go-12-11-2025
+END:VEVENT
+BEGIN:VEVENT
+CATEGORIES:Esports,BO1,CS2
+DESCRIPTION:🎮 Counter-Strike 2 Match\n📋 Tournoi: PGL Masters Bucharest 2025\n⚔️ Format: BO1\n⏱️ Durée estimée: 1:30:00\n🔍 Équipe suivie: Gentle Mates\n🔗 Lien: https://bo3.gg/matches/betboom-team-vs-gentle-mates-cs-29-10-2025
+DURATION:PT1H30M
+DTSTART:20251029T110000Z
+SUMMARY:CS2: BetBoom vs Gentle Mates
+UID:66ef6a66-3fad-42e6-ad72-17b6c4fa2baa@66ef.org
+URL:https://bo3.gg/matches/betboom-team-vs-gentle-mates-cs-29-10-2025
 END:VEVENT
 END:VCALENDAR
