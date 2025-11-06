@@ -2,21 +2,21 @@ BEGIN:VCALENDAR
 VERSION:2.0
 PRODID:ics.py - http://git.io/lLljaA
 BEGIN:VEVENT
-CATEGORIES:BO1,Esports,CS2
+CATEGORIES:Esports,BO1,CS2
 DESCRIPTION:🎮 Counter-Strike 2 Match\n📋 Tournoi: BLAST Rivals Fall 2025\n⚔️ Format: BO1\n⏱️ Durée estimée: 1:30:00\n🔍 Équipe suivie: Vitality\n🔗 Lien: https://bo3.gg/matches/vitality-vs-tyloo-cs-go-12-11-2025
 DURATION:PT1H30M
 DTSTART:20251112T093000Z
 SUMMARY:CS2: Vitality vs TYLOO
-UID:100903a3-172e-4f47-8794-c0f90eec7074@1009.org
+UID:cfd7a0f9-9621-4809-a663-5b182368e3e4@cfd7.org
 URL:https://bo3.gg/matches/vitality-vs-tyloo-cs-go-12-11-2025
 END:VEVENT
 BEGIN:VEVENT
-CATEGORIES:BO1,Esports,CS2
+CATEGORIES:Esports,BO1,CS2
 DESCRIPTION:🎮 Counter-Strike 2 Match\n📋 Tournoi: Intel Extreme Masters Chengdu 2025\n⚔️ Format: BO1\n⏱️ Durée estimée: 1:30:00\n🔍 Équipe suivie: Vitality\n🔗 Lien: https://bo3.gg/matches/vitality-vs-astralis-07-11-2025
 DURATION:PT1H30M
 DTSTART:20251107T063000Z
 SUMMARY:CS2: Vitality vs Astralis
-UID:f9186602-4060-4ea0-81bf-76285586a505@f918.org
+UID:aa5ed12c-e277-41ab-b79a-9fadc9318d15@aa5e.org
 URL:https://bo3.gg/matches/vitality-vs-astralis-07-11-2025
 END:VEVENT
 END:VCALENDAR
