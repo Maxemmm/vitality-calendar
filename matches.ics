@@ -2,21 +2,21 @@ BEGIN:VCALENDAR
 VERSION:2.0
 PRODID:ics.py - http://git.io/lLljaA
 BEGIN:VEVENT
-CATEGORIES:CS2,Esports,BO1
+CATEGORIES:Esports,CS2,BO1
 DESCRIPTION:🎮 Counter-Strike 2 Match\n📋 Tournoi: BLAST Rivals Fall 2025\n⚔️ Format: BO1\n⏱️ Durée estimée: 1:30:00\n🔍 Équipe suivie: Vitality\n🔗 Lien: https://bo3.gg/matches/vitality-vs-tyloo-cs-go-12-11-2025
 DURATION:PT1H30M
 DTSTART:20251112T093000Z
 SUMMARY:CS2: Vitality vs TYLOO
-UID:bf2724fc-d53e-44b0-980a-23c2e8d602a1@bf27.org
+UID:e43f6b57-2f24-483a-beb4-3b3a29749d90@e43f.org
 URL:https://bo3.gg/matches/vitality-vs-tyloo-cs-go-12-11-2025
 END:VEVENT
 BEGIN:VEVENT
-CATEGORIES:CS2,Esports,BO1
-DESCRIPTION:🎮 Counter-Strike 2 Match\n📋 Tournoi: Intel Extreme Masters Chengdu 2025\n⚔️ Format: BO1\n⏱️ Durée estimée: 1:30:00\n🔍 Équipe suivie: Vitality\n🔗 Lien: https://bo3.gg/matches/vitality-vs-mousesports-08-11-2025
+CATEGORIES:Esports,CS2,BO1
+DESCRIPTION:🎮 Counter-Strike 2 Match\n📋 Tournoi: Intel Extreme Masters Chengdu 2025\n⚔️ Format: BO1\n⏱️ Durée estimée: 1:30:00\n🔍 Équipe suivie: Vitality\n🔗 Lien: https://bo3.gg/matches/vitality-vs-5d0113e4e3-09-11-2025
 DURATION:PT1H30M
-DTSTART:20251108T063000Z
-SUMMARY:CS2: Vitality vs MOUZ
-UID:d629a9d4-2725-4283-9cc7-58563ad196a9@d629.org
-URL:https://bo3.gg/matches/vitality-vs-mousesports-08-11-2025
+DTSTART:20251109T080000Z
+SUMMARY:CS2: Vitality vs TBD
+UID:ba005930-bf66-4ea8-94b1-ecd9680c0854@ba00.org
+URL:https://bo3.gg/matches/vitality-vs-5d0113e4e3-09-11-2025
 END:VEVENT
 END:VCALENDAR
