@@ -7,16 +7,16 @@ DESCRIPTION:🎮 Counter-Strike 2 Match\n📋 Tournoi: BLAST Rivals Fall 2025\n�
 DURATION:PT1H30M
 DTSTART:20251112T093000Z
 SUMMARY:CS2: Vitality vs TYLOO
-UID:e43f6b57-2f24-483a-beb4-3b3a29749d90@e43f.org
+UID:b705d2cb-5e86-4a9c-ba85-f6c486253199@b705.org
 URL:https://bo3.gg/matches/vitality-vs-tyloo-cs-go-12-11-2025
 END:VEVENT
 BEGIN:VEVENT
 CATEGORIES:Esports,CS2,BO1
-DESCRIPTION:🎮 Counter-Strike 2 Match\n📋 Tournoi: Intel Extreme Masters Chengdu 2025\n⚔️ Format: BO1\n⏱️ Durée estimée: 1:30:00\n🔍 Équipe suivie: Vitality\n🔗 Lien: https://bo3.gg/matches/vitality-vs-5d0113e4e3-09-11-2025
+DESCRIPTION:🎮 Counter-Strike 2 Match\n📋 Tournoi: Intel Extreme Masters Chengdu 2025\n⚔️ Format: BO1\n⏱️ Durée estimée: 1:30:00\n🔍 Équipe suivie: Vitality\n🔗 Lien: https://bo3.gg/matches/vitality-vs-furia-09-11-2025
 DURATION:PT1H30M
 DTSTART:20251109T080000Z
-SUMMARY:CS2: Vitality vs TBD
-UID:ba005930-bf66-4ea8-94b1-ecd9680c0854@ba00.org
-URL:https://bo3.gg/matches/vitality-vs-5d0113e4e3-09-11-2025
+SUMMARY:CS2: Vitality vs FURIA
+UID:d3164f75-479f-40cf-ac67-d6bbcf86256b@d316.org
+URL:https://bo3.gg/matches/vitality-vs-furia-09-11-2025
 END:VEVENT
 END:VCALENDAR
