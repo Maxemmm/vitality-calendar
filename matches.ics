@@ -2,21 +2,21 @@ BEGIN:VCALENDAR
 VERSION:2.0
 PRODID:ics.py - http://git.io/lLljaA
 BEGIN:VEVENT
-CATEGORIES:CS2,BO1,Esports
+CATEGORIES:Esports,CS2,BO1
 DESCRIPTION:🎮 Counter-Strike 2 Match\n📋 Tournoi: Perfect World CS Challenge Series 2\n⚔️ Format: BO1\n⏱️ Durée estimée: 1:30:00\n🔍 Équipe suivie: Gentle Mates\n🔗 Lien: https://bo3.gg/matches/gentle-mates-cs-vs-change-the-game-13-11-2025
 DURATION:PT1H30M
 DTSTART:20251113T030000Z
 SUMMARY:CS2: Gentle Mates vs Change The Game
-UID:2761d1de-30cf-413a-8061-151f07e0a842@2761.org
+UID:5ce629d1-765c-43d3-a75b-dad5b4b20817@5ce6.org
 URL:https://bo3.gg/matches/gentle-mates-cs-vs-change-the-game-13-11-2025
 END:VEVENT
 BEGIN:VEVENT
-CATEGORIES:CS2,BO1,Esports
+CATEGORIES:Esports,CS2,BO1
 DESCRIPTION:🎮 Counter-Strike 2 Match\n📋 Tournoi: BLAST Rivals Fall 2025\n⚔️ Format: BO1\n⏱️ Durée estimée: 1:30:00\n🔍 Équipe suivie: Vitality\n🔗 Lien: https://bo3.gg/matches/vitality-vs-tyloo-cs-go-12-11-2025
 DURATION:PT1H30M
 DTSTART:20251112T093000Z
 SUMMARY:CS2: Vitality vs TYLOO
-UID:7b3f406e-2e75-439d-a100-1d05fe12a6eb@7b3f.org
+UID:c11c4366-d710-49d2-81e8-c5759850540a@c11c.org
 URL:https://bo3.gg/matches/vitality-vs-tyloo-cs-go-12-11-2025
 END:VEVENT
 END:VCALENDAR
