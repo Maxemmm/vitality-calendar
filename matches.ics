@@ -2,21 +2,21 @@ BEGIN:VCALENDAR
 VERSION:2.0
 PRODID:ics.py - http://git.io/lLljaA
 BEGIN:VEVENT
-CATEGORIES:BO1,Esports,CS2
-DESCRIPTION:🎮 Counter-Strike 2 Match\n📋 Tournoi: Perfect World CS Challenge Series 2\n⚔️ Format: BO1\n⏱️ Durée estimée: 1:30:00\n🔍 Équipe suivie: Gentle Mates\n🔗 Lien: https://bo3.gg/matches/gentle-mates-cs-vs-change-the-game-13-11-2025
-DURATION:PT1H30M
-DTSTART:20251113T030000Z
-SUMMARY:CS2: Gentle Mates vs Change The Game
-UID:dd39d7e2-e88c-418c-b3cd-9d0255fd9c89@dd39.org
-URL:https://bo3.gg/matches/gentle-mates-cs-vs-change-the-game-13-11-2025
-END:VEVENT
-BEGIN:VEVENT
-CATEGORIES:BO1,Esports,CS2
+CATEGORIES:Esports,BO1,CS2
 DESCRIPTION:🎮 Counter-Strike 2 Match\n📋 Tournoi: BLAST Rivals Fall 2025\n⚔️ Format: BO1\n⏱️ Durée estimée: 1:30:00\n🔍 Équipe suivie: Vitality\n🔗 Lien: https://bo3.gg/matches/furia-vs-vitality-13-11-2025
 DURATION:PT1H30M
-DTSTART:20251113T093000Z
+DTSTART:20251113T100000Z
 SUMMARY:CS2: FURIA vs Vitality
-UID:03e98b27-e496-4c74-a73f-d45626cad966@03e9.org
+UID:dc15492a-bbcb-4222-93d7-f86359ef7db2@dc15.org
 URL:https://bo3.gg/matches/furia-vs-vitality-13-11-2025
+END:VEVENT
+BEGIN:VEVENT
+CATEGORIES:Esports,BO1,CS2
+DESCRIPTION:🎮 Counter-Strike 2 Match\n📋 Tournoi: Perfect World CS Challenge Series 2\n⚔️ Format: BO1\n⏱️ Durée estimée: 1:30:00\n🔍 Équipe suivie: Gentle Mates\n🔗 Lien: https://bo3.gg/matches/gentle-mates-cs-vs-rare-atom-15-11-2025
+DURATION:PT1H30M
+DTSTART:20251115T030000Z
+SUMMARY:CS2: Gentle Mates vs Rare Atom
+UID:88807592-e112-4045-8480-295238978935@8880.org
+URL:https://bo3.gg/matches/gentle-mates-cs-vs-rare-atom-15-11-2025
 END:VEVENT
 END:VCALENDAR
