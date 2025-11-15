@@ -2,21 +2,21 @@ BEGIN:VCALENDAR
 VERSION:2.0
 PRODID:ics.py - http://git.io/lLljaA
 BEGIN:VEVENT
-CATEGORIES:BO1,Esports,CS2
-DESCRIPTION:🎮 Counter-Strike 2 Match\n📋 Tournoi: BLAST Rivals Fall 2025\n⚔️ Format: BO1\n⏱️ Durée estimée: 1:30:00\n🔍 Équipe suivie: Vitality\n🔗 Lien: https://bo3.gg/matches/spirit-vs-vitality-14-11-2025
+CATEGORIES:Esports,BO1,CS2
+DESCRIPTION:🎮 Counter-Strike 2 Match\n📋 Tournoi: BLAST Rivals Fall 2025\n⚔️ Format: BO1\n⏱️ Durée estimée: 1:30:00\n🔍 Équipe suivie: Vitality\n🔗 Lien: https://bo3.gg/matches/falcons-esports-vs-vitality-15-11-2025
 DURATION:PT1H30M
-DTSTART:20251114T104000Z
-SUMMARY:CS2: Spirit vs Vitality
-UID:d6b366cd-7078-4add-9561-8253e866f361@d6b3.org
-URL:https://bo3.gg/matches/spirit-vs-vitality-14-11-2025
+DTSTART:20251115T103000Z
+SUMMARY:CS2: Falcons vs Vitality
+UID:923ee87b-58dd-47e4-8c01-dd3a618021d7@923e.org
+URL:https://bo3.gg/matches/falcons-esports-vs-vitality-15-11-2025
 END:VEVENT
 BEGIN:VEVENT
-CATEGORIES:BO1,Esports,CS2
+CATEGORIES:Esports,BO1,CS2
 DESCRIPTION:🎮 Counter-Strike 2 Match\n📋 Tournoi: Perfect World CS Challenge Series 2\n⚔️ Format: BO1\n⏱️ Durée estimée: 1:30:00\n🔍 Équipe suivie: Gentle Mates\n🔗 Lien: https://bo3.gg/matches/gentle-mates-cs-vs-rare-atom-15-11-2025
 DURATION:PT1H30M
 DTSTART:20251115T030000Z
 SUMMARY:CS2: Gentle Mates vs Rare Atom
-UID:0ae03f91-a4a7-4b27-9387-cd4ada92430c@0ae0.org
+UID:d4782951-2371-49bc-854a-50222787a25a@d478.org
 URL:https://bo3.gg/matches/gentle-mates-cs-vs-rare-atom-15-11-2025
 END:VEVENT
 END:VCALENDAR
