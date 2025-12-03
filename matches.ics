@@ -2,12 +2,12 @@ BEGIN:VCALENDAR
 VERSION:2.0
 PRODID:ics.py - http://git.io/lLljaA
 BEGIN:VEVENT
-CATEGORIES:BO1,CS2,Esports
+CATEGORIES:Esports,BO1,CS2
 DESCRIPTION:🎮 Counter-Strike 2 Match\n📋 Tournoi: StarLadder Budapest Major 2025\n⚔️ Format: BO1\n⏱️ Durée estimée: 1:30:00\n🔍 Équipe suivie: Vitality\n🔗 Lien: https://bo3.gg/matches/vitality-vs-faze-04-12-2025
 DURATION:PT1H30M
 DTSTART:20251204T140000Z
 SUMMARY:CS2: Vitality vs FaZe
-UID:16296bb6-d819-4776-b604-8cf5bb2b4261@1629.org
+UID:1e92b642-f036-496d-8aae-06bfb8fbc999@1e92.org
 URL:https://bo3.gg/matches/vitality-vs-faze-04-12-2025
 END:VEVENT
 END:VCALENDAR
