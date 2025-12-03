@@ -2,12 +2,12 @@ BEGIN:VCALENDAR
 VERSION:2.0
 PRODID:ics.py - http://git.io/lLljaA
 BEGIN:VEVENT
-CATEGORIES:CS2,Esports,BO1
-DESCRIPTION:🎮 Counter-Strike 2 Match\n📋 Tournoi: Perfect World CS Challenge Series 2\n⚔️ Format: BO1\n⏱️ Durée estimée: 1:30:00\n🔍 Équipe suivie: Gentle Mates\n🔗 Lien: https://bo3.gg/matches/gentle-mates-cs-vs-9ine-16-11-2025
+CATEGORIES:BO1,CS2,Esports
+DESCRIPTION:🎮 Counter-Strike 2 Match\n📋 Tournoi: StarLadder Budapest Major 2025\n⚔️ Format: BO1\n⏱️ Durée estimée: 1:30:00\n🔍 Équipe suivie: Vitality\n🔗 Lien: https://bo3.gg/matches/vitality-vs-faze-04-12-2025
 DURATION:PT1H30M
-DTSTART:20251116T030000Z
-SUMMARY:CS2: Gentle Mates vs 9INE
-UID:891e57c6-8306-4340-af7e-b660ab4f5840@891e.org
-URL:https://bo3.gg/matches/gentle-mates-cs-vs-9ine-16-11-2025
+DTSTART:20251204T140000Z
+SUMMARY:CS2: Vitality vs FaZe
+UID:16296bb6-d819-4776-b604-8cf5bb2b4261@1629.org
+URL:https://bo3.gg/matches/vitality-vs-faze-04-12-2025
 END:VEVENT
 END:VCALENDAR
